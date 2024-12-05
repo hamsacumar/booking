@@ -58,6 +58,38 @@ html{
   margin: 0;
 }
 
+.container2 {
+  display: flex; /* Side-by-side layout */
+  align-items: flex-start; /* Aligns items at the top */
+  justify-content: space-between; /* Distributes space between image and text */
+  gap: 20px; /* Adds spacing between image and text */
+  margin: 20px 0; /* Adds vertical spacing */
+}
+
+.image img {
+  width: 1000px; /* Adjust image width */
+  height: 600px; /* Maintains aspect ratio */
+  display: block; /* Ensures no inline spacing */
+  padding-top: 150px;
+  padding: 20px;
+}
+
+.text {
+  font-size: 25px;
+  line-height: 1.5;
+  max-width: calc(100% - 320px); /* Ensures text takes the remaining space */
+}
+
+.text h1{
+  font-size: 30px;
+  padding-left: 200px;
+  padding-top: 10px;
+}
+
+.text p{
+  padding-top: 30px;
+}
+
 
 .movie-container {
   margin: 20px 0;
