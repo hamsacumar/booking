@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex studios</title>
+
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="foothead.css">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+  <nav class="nav container flex"> 
+    <a  class="logo-content flex">
+      <i class='bx bx-camera-movie logo-icon'></i>
+      <span class="logo-text">Ex Studio.</span>
+</a>
+
+          <div class="menu-content">
+                  <div class="menu-content">
+                            <ul class="menu-list flex">
+                                <li><a href="main.html" class="nav-link">Home</a></li>
+                                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                                <li><a href="booking.html" class="nav-link  active-navlink">Booking</a></li>
+                                <li><a href="contact.html" class="nav-link">Reviews</a></li>
+                                <li><a href="about.html" class="nav-link">About us</a></li>
+                                <li><a href="faq.html" class="nav-link ">FAQs</a></li>
+                            </ul>
+                            <i class='bx bx-x navClose-btn'></i>
+                    </div>
+
+                  <div class="media-icons flex">
+                          <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+                          <a href="https://twitter.com/i/flow/login"><i class='bx bxl-twitter'></i></a>
+                          <a href="https://www.instagram.com/accounts/login"><i
+                                          class='bx bxl-instagram-alt'></i></a>
+                          <a href="https://github.com/login"><i class='bx bxl-github'></i></a>
+                          <a href="https://www.youtube.com/login"><i class='bx bxl-youtube'></i></a>
+                  </div>
+
+                  <i class='bx bx-x navClose-btn'></i>
+          </div>
+
+          <div class="contact-content flex">
+            <i class='bx bx-phone phone-icon'></i>
+            <span class="phone-number">076 111 5854</span>
+    </div>
+
+          <i class='bx bx-menu navOpen-btn'></i>
+  </nav>
+
+</header>
+
+
+
+
+<div class="body">
+    <div class="movie-container1">
+      <label>Pick a movie:</label>
+      <select id="movie">
+        <option value="10">Avengers: Endgame ($10)</option>
+        <option value="12">Joker ($12)</option>
+        <option value="8">Toy Story 4 ($8)</option>
+        <option value="9">The Lion King ($9)</option>
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>N/A</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+
+    <div class="containers">
+      <div class="screen"></div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      You have selected <span id="count">0</span> seats for a price of $<span
+        id="total"
+        >0</span
+      >
+    </p>
+
+  </br>
+    <button class="button">BOOK</button>
+
+    <script src="script.js"></script>
+</div>
+
+
+
+    
+  
+    
+<!-- Footer Section -->
+<footer class="section footer">
+  <div class="footer-container container">
+          <div class="footer-content">
+            <a href="main.html" class="logo-content flex">
+              <i class='bx bx-camera-movie logo-icon'></i>
+              <span class="logo-text">Ex studios.</span>
+            </a>
+
+                  <p class="content-description">
+                          A theater is a vibrant hub of creativity where stories come alive through the enchanting interplay of acting, sound, and visual artistry.</p>
+
+                  <div class="footer-location flex">
+                          <i class='bx bx-map map-icon'></i>
+
+                          <div class="location-text">
+                                  Bandaranayake Mawatha, Moratuwa 10400
+                          </div>
+                  </div>
+          </div>
+
+          <div class="footer-linkContent">
+                  <ul class="footer-links">
+                          <h4 class="footerLinks-title">Facility</h4>
+
+                          <li><a href="#" class="footer-link">Comfortable Seating</a></li>
+                          <li><a href="#" class="footer-link">Quality Sound Systems</a></li>
+                          <li><a href="#" class="footer-link">Advanced Ticketing Services</a></li>
+                          <li><a href="#" class="footer-link">Creative Studio</a></li>
+                          <li><a href="#" class="footer-link">Safety Measures</a></li>
+                  </ul>
+                  <ul class="footer-links">
+                          <h4 class="footerLinks-title">Facility</h4>
+
+                          <li><a href="#" class="footer-link">Snack Bar</a></li>
+                          <li><a href="#" class="footer-link">Customer Services</a></li>
+                          <li><a href="#" class="footer-link">VIP Services</a></li>
+                  </ul>
+                  <ul class="footer-links">
+                          <h4 class="footerLinks-title">Support</h4>
+
+                          <li><a href="#" class="footer-link">About Us</a></li>
+                          <li><a href="#" class="footer-link">FAQs</a></li>
+                          <li><a href="#" class="footer-link">Private Policy</a></li>
+                          <li><a href="#" class="footer-link">Help Us</a></li>
+                  </ul>
+          </div>
+  </div>
+  <div class="footer-copyRight">&#169; FITCODE. All rigths reserved</div>
+</footer>
+
+
+<!-- Scroll Up -->
+        <a href="index.html" class="scrollUp-btn flex">
+                <i class='bx bx-up-arrow-alt scrollUp-icon'></i>
+        </a>
+
+</main>
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- Scroll Reveal -->
+<script src="js/scrollreveal.js"></script>
+
+<!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
